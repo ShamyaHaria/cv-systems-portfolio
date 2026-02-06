@@ -1,0 +1,47 @@
+cat > .gitignore << 'EOF'
+# Compiled files
+bin/
+*.o
+*.out
+
+# Data files (images, videos, models)
+data/*.jpg
+data/*.png
+data/*.jpeg
+data/*.mp4
+data/*.avi
+!data/.gitkeep
+!data/haarcascade*.xml
+
+# Build artifacts
+build/
+cmake-build-*/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.swp
+*~
+
+# OpenCV build files (you don't need these)
+3rdparty/
+apps/
+build/
+cmake/
+modules/
+platforms/
+samples/
+doc/
+CMakeLists.txt
+SECURITY.md
+CONTRIBUTING.md
+*.md
+!README.md
+!INSTALL.md
+!SETUP_GUIDE.md
+!TROUBLESHOOTING.md
+EOF
