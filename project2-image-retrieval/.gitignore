@@ -1,0 +1,84 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.exe
+*.out
+*.app
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled executables (keep source, ignore binaries)
+baseline_matching
+histogram_matching
+multi_histogram
+texture_color
+dnn_matching
+custom_design
+advanced_texture_matching
+adaptive_matching
+saliency_matching
+query_refinement_matching
+mobilenet_detector
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Full image database (too large for git - 1106 images)
+data/olympus/
+
+# Keep these small datasets
+!data/test_subset/
+!data/embeddings.csv
+
+# Generated feature files
+features/
+*.csv
+
+# Temporary files
+*.tmp
+*.log
+test_*.cpp
+test_banana
+test_specific
+test_blob
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Models (large binary files)
+models/*.caffemodel
+models/*.weights
+models/*.pth
+models/*.onnx
+
+# Keep model config files
+!models/*.prototxt
+!models/*.cfg
+!models/*.txt
+!models/*.names
