@@ -1,0 +1,77 @@
+# Shamya Haria
+# Project 3: Real-time 2D Object Recognition
+# .gitignore
+
+# Build files
+build/
+*.o
+*.exe
+realtime
+batch_train
+test_system
+improved_system
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled files
+*.out
+*.app
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Data files (large datasets)
+data/
+*.csv
+object_db.csv
+
+# Model files (large)
+*.onnx
+*.pth
+*.h5
+*.pb
+
+# Output files
+results/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+backup/
+*.bak
+*.backup
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
