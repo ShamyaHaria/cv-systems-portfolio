@@ -1,0 +1,27 @@
+# Build output
+build/
+
+# Data and results (large files, not needed for submission)
+data/
+results/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# VSCode
+.vscode/
+
+# Compiled binaries
+*.o
+*.out
+*.dSYM/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Calibration backup (keep only calibration.yml)
+calibration_iphone.yml
