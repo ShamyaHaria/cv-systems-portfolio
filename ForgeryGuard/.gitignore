@@ -1,0 +1,26 @@
+# data
+data/
+
+# virtual environment
+venv/
+
+# model checkpoints
+outputs/checkpoints/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# temp word files
+~$*.docx
+
+# screenshots
+*.png
+*.jpg
+*.jpeg
+*.mp4
+
+# docx files
+*.docx
